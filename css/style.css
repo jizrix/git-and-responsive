@@ -70,7 +70,13 @@ body {
   width: 100%;
   border-radius: 5px;
 }
-@media only screen and (max-width: 425px) {
+
+h1{
+  display: flex;
+  justify-content: center;
+  
+}
+@media only screen and (max-width: 768px) {
   .main {
     flex-direction: column;
   }
